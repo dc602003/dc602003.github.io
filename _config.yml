@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: MCN East
+title: dc602003.github.io
 
 # Your name to show in the footer
 author: David Cooper
@@ -22,8 +22,7 @@ author: David Cooper
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://dc602003.github.io"
 
 ################
@@ -39,7 +38,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: /assets/img/headshot.png
+#title-img: /assets/img/headshot.png
 
 
 #####################################
