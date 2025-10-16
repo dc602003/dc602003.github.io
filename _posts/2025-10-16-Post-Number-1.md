@@ -17,8 +17,3 @@ There was a time also where I was working for a local government organisation he
 So, after years of towing the Microsoft line, I'm making the decision to do things my way, and that includes this site. Using Markdown to write the blog posts, and have them hosted on Github.
 
 That's it for post number 1. A quick history, and an intent for the future.
-
-<details markdown="1">
-<summary>Click here!</summary>
-Here you can see an **expandable** section
-</details>
