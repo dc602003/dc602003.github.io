@@ -21,6 +21,7 @@ author: David Cooper
 
 navbar-links:
   About Me: "aboutme"
+  Comment Policy: "comment-policy"
   Resources:
   - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://dc602003.github.io"
