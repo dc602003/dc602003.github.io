@@ -2,8 +2,6 @@
 layout: post
 title: Post Number 1
 subtitle: Testing the theory, and writing something.
-gh-repo: dc602003/dc602003.github.io
-gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 mathjax: true
