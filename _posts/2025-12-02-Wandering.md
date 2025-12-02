@@ -2,7 +2,7 @@
 layout: post
 title: Wandering
 subtitle: Also, maybe, wondering...
-tags: [test]
+tags: [Musing]
 comments: true
 mathjax: true
 published: true
