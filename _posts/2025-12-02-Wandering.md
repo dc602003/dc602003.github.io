@@ -5,7 +5,7 @@ subtitle: Also, maybe, wondering...
 tags: [test]
 comments: true
 mathjax: true
-published: false
+published: true
 author: David Cooper
 ---
 What do I do? I'm very much a family man, and spend my time away from work ensuring the happiness of my wife and children. Is this enough? There are things I so want to do, hobbies I'd love to have, adventures I'd like to go on, but the days seem so short. It's currently 22:30, and I know I should be in bed; my mind and body both tell me this, yet here I am tinkering, typing, and wondering if there is anything new to say about the human condition, what it is to be a man, and how I can find happiness in a world so seemingly gripped by things like war, fear, hatred, poverty, destitution, disease. 
