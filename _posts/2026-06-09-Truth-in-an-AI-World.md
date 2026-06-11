@@ -20,7 +20,7 @@ The story revolved around a live stream of Keanu and Elon discussing the role of
 
 ### The Problem
 
-At the foot of the article, and I mean right at the very end, there was a disclaimer stating that this was an AI generated story. What the actual fudge!? I spent 15-20 minutes reading this article and it wasn't real! It didn't happen. Sure enough, some searching across other platforms, and searching for the video on YouTube revealed that not only did this not occur, but that many YouTube videos and articles have been written based on the fact that the encounter actuall ***DID*** happen.
+At the foot of the article, and I mean right at the very end, there was a disclaimer stating that this was an AI generated story. What the actual fudge!? I spent 15-20 minutes reading this article and it wasn't real! It didn't happen. Sure enough, some searching across other platforms, and searching for the video on YouTube revealed that not only did this not occur, but that many YouTube videos and articles have been written based on the fact that the encounter actually ***DID*** happen.
 
 ### I Quit
 
