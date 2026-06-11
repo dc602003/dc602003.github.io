@@ -24,4 +24,4 @@ At the foot of the article, and I mean right at the very end, there was a discla
 
 ### I Quit
 
-I'm starting to feel that there are few news sources with any realy credibility left, certainly not outside of mainstream news outlets, and even those are questionable at best with their politically motivated, and billionaire-backed biases. Please let me know if there is anywhere on the internet now where I can get honest, human generated news.
+I'm starting to feel that there are few news sources with any realy credibility left, certainly not outside of mainstream news outlets, and even those are questionable at best with their politically motivated, and billionaire-backed biases. I've closed my Substack account as the level of noise and the uncertainty around the sources make me really question what I can trust. Please let me know if there is anywhere on the internet now where I can get honest, human generated news.
