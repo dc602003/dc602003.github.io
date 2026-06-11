@@ -18,7 +18,7 @@ The article this morning which piqued my interest revolved around an interview b
 
 The story revolved around a live stream of Keanu and Elon discussing the role of AI in Hollywood, and in the live stream Keanu garnered enourmous support from the audience for his views on what it is to be human, whilst Elon received boo's and jeer's from the audience for suggesting that AI could replace humans in all aspects of film-making.
 
-### The Problem
+### The Problem
 
 At the foot of the article, and I mean right at the very end, there was a disclaimer stating that this was an AI generated story. What the actual fudge!? I spent 15-20 minutes reading this article and it wasn't real! It didn't happen. Sure enough, some searching across other platforms, and searching for the video on YouTube revealed that not only did this not occur, but that many YouTube videos and articles have been written based on the fact that the encounter actually ***DID*** happen.
 
