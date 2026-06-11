@@ -5,7 +5,7 @@ subtitle: Why I Got Pissed Off Today
 tags: [Musing,AI,Truth]
 comments: true
 mathjax: true
-published: false
+published: true
 author: David Cooper
 ---
 ### Substack
