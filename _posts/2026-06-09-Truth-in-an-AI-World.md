@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Truth in an AI World
-subtitle: Why I Got Pissed Off Today
+title: Truth in an AI World...
+subtitle: ...Or Why I Got Pissed Off Today
 tags: [Musing,AI,Truth]
 comments: true
 mathjax: true
