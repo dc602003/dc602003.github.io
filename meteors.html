@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Meteors</title>
+        <style>
+            body div {
+                background: repeating-linear-gradient(#9f9,#000 4px);
+                opacity: 0.1;
+            }
+            body, canvas, div {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background: #111;
+                overflow: hidden;
+                object-fit: contain;
+                image-rendering: pixelated;
+            }
+        </style>
+    </head>
+<body>
+    <canvas width="444" height="252" id="c"></canvas>
+    <div></div>
+<script>
+    function o(t,o,e,n,r,a,d,h){p[p.length]={x:t,y:o,r:e,w:e,u:r,s:h,t:a,v:n,z:d}}c=document.getElementById("c"),a=c.getContext('2d'),p=[],q=[],c.width=d=444,c.height=h=252,onkeydown=t=>(q.[t.key]=.1,!1),onkeyup=t=>(q.[t.key]=0,!1),setInterval(function(){with(a)with(lineWidth=2,fillRect(0,0,d,h),p.length&&!p[0].t||o(d/2,h/2,p.length=0,0,1,0,1,0),Math)for(e=p.length;e--;)with(p[e]){for(save(),shadowBlur=9,fillStyle=shadownColor='#5f0',strokeStyle='#'+'fcfdafd62f8'.substr(t+t,3),2-t||(v*97)<.1&&o(x,y,atan2(p[0].x-x,y-p[0].y,w=r+=random()-.5,v=4*random())+.4*random()-.2,7,1,4,35),t||(v*97,q['\x20']&&!z&&o(x,y,r,7,1,4,35,z=3),fillText(s,4,20),r+=-q.ArrowLeft||q.ArrowRight||0,i=random()<.2,p.length<6&&o(x+d/4+.4*random()*d,y+h/4+.4*random()*h,7*random(),1,i?1:4,i+1),q.ArrowUp&&(w=r,v=3)),translate(x=(x+d+sin(w)*v+15*u)%(10*u+d)-5*u,y=(y+h-cos(w)*v+15*u)%(10*u+h)-5*u),rotate(r),scale(u+.1,u+.1),beginPath(),i=[2602934,26573945564232,39023120720,207489,207489][t];i;i-=f=i%9,i/=9,i-=g=i%9,i/=9,lineTo(f-4,g-4));for(closePath(),stroke(),restore(),f=!t*u|3<t&z<35?p.length:0;f--;)if(f-e&&p[f].t<3&abs(p[f].x-x)<4*p[f].u&abs(p[f].y-y)<4*p[f].u)with(z=e?(s&&++p[0].s,1):(u=0,99),p[f])o(x,y,7*random(),9,1,3,9),o(x,y,7*random(),9,1,3,9),o(x,y,7*random(),9,1,3,9),o(x,y,7*random(),9,1,3,9),o(x,y,7*random(),9,1,3,9),o(x,y,7*random(),9,1,3,9),r+=random(),--u?0(x,y,r+random(),++v,u,1):z=f?1:99;z&&! --z&&e|!u&&p.splice(e,1)}},33);
+</script>
+</body>
+</html>
