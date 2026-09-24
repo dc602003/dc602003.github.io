@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: Who is he, and what is he to you?
+title: Comment Policy
+subtitle: "Be excellent to each other"
 ---
 Welcome to my site, dc602003.guthub.io. I would appreciate if you could all ensure that the comments on these articles are free from trolls, spam and abuse. The comment section can be a great place for interaction with other readers, and to ensure that you have a good time here, please make sure to stick to the following guidelines:
 
