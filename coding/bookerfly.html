@@ -37,4 +37,80 @@
             }
         </style>
     </head>
+    <body>
+        <h1>Bookerfly</h1>
+        <label for="isbn">ISBN:</label>
+        <input id="isbn" type="text" size="15">
+        <button type="button" onclick="pupdate()">Add Book</button>
+        <p>Examples:</p>
+        <ui>
+            <li>9780141439518</li>
+            <li>9780060850524</li>
+            <li>9780451524935</li>
+            <li>9780743273565</li>
+            <li>9780441569595</li>
+            <li>9780553293357</li>
+            <li>9780345391803</li>
+            <li>9780345404473</li>
+        </ui>
+        <script>
+            function pupdate() {
+                const isbn = document.getElementById("isbn").value;
+                if (!isbn) {
+                    alert("please enter and isbn.");
+                    return;
+                }
+                document.getElementById("isbn").value = "";
+                const url = "https://openlibrary.org/search.json?q=isbn:" + isbn;
+                fetch(url)
+                .then(Response => {
+                    if (response.ok){
+                        return response.json();
+                    }
+                    throw new Error();
+                })
+                .then(emerge)
+                .catch(e => {
+                    alert("Network/API error");
+                });
+            }
+            function emerge(data) {
+                if ((!data.docs) || (data.docs.length == 0)) {
+                    alert("No book found for ISBN");
+                    return;
+                }
+                const book = data.docs[0];
+                const author = book.author_name ? book.author_name[0] : "Unknown";
+                const title = book.title || "Unknown Title";
+                const cover = book.conver_i || "";
+                const src = "https://covers.openlibrary.org/b/id/" + cover + "-L.jpg"
+                const holder = document.createElement("div");
+                const img = document.createElement("img");
+                const direction = "LR"[Math.round(Math.random())];
+                const vOff = -5 + Math.random()*10;
+                const vTimer = Math.floor(Math.random()*6000) + 500;
+                const hTimer = Math.floor(Math.random()*6000) + 1500;
+                holder.style.top = vOff + "em";
+                let anim = hTimer + "ms linear infinite, vertical ";
+                anim += vTimer + "ms alternate infinte ease-in-out";
+                if ("L" == direction) {
+                    holder.style.left = "-200px";
+                    holder.style.animation = "horizontalL " + anim;
+                } else {
+                    holder.style.right = "-200px";
+                    holder.style.animation = "horizontalR " + anim;
+                }
+                if (cover != "") {
+                    flapper = Math.floor(Math.random() * 1000) + 250;
+                    img.style.animation = "flap " + flapper + "ms alternate infinte";
+                    img.src = src;
+                    img.alt = title + " by " + author;
+                    holder.appendChild(img);
+                } else {
+                    holder.innerText = title + " by " + author;
+                }
+                document.body.appendChild(holder);
+            }
+        </script>
+    </body>
 </html>
